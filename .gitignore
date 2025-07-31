@@ -1,2 +1,19 @@
-node_modules/
-.env
+# Node.js modules (frontend + backend)
+**/node_modules/
+
+# Environment files
+**/.env
+
+# Build files (React frontend)
+frontend/build/
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional: lock files if you want to exclude them (depends on team practice)
+# package-lock.json
+# yarn.lock
