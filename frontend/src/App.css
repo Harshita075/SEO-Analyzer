@@ -1,0 +1,31 @@
+
+
+
+
+.desktop-links {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.5rem;
+}
+
+.menu-icon {
+  display: none;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+   
+  .desktop-links {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+    margin-left: auto;
+  }
+}
+
