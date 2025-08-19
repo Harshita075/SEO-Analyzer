@@ -1,32 +1,34 @@
-🚀 SEO Analyzer Web App
+# 🌐 SEO Analyzer Web App
 
-An AI-powered SEO Analysis Tool that helps you analyze text, extract keywords, improve readability, and optimize content for search engines. Built with Node.js + Express (backend) and React (frontend), this web app integrates TextRazor API and custom NLP logic to provide actionable SEO insights.
+The **SEO Analyzer Web App** is a full-stack application that helps users analyze, optimize, and enhance the SEO quality of their content.  
+It provides keyword extraction, readability analysis, keyword suggestions, and intelligent keyword insertion to improve website ranking.  
 
+---
 ## 🎥 Project Demonstration  
+[Watch on Loom](https://www.loom.com/share/e173e3335c3c43e29951571607ab225c?sid=f7f95f27-1a0e-4478-bf2f-2d22aa249eff)
 
-[![SEO Analyzer Demo](https://cdn.loom.com/sessions/thumbnails/e173e3335c3c43e29951571607ab225c-00001.png)](https://www.loom.com/share/e173e3335c3c43e29951571607ab225c?sid=f7f95f27-1a0e-4478-bf2f-2d22aa249eff)
 
+---
+## 🚀 Features
 
-✨ Features
+- 🔍 **SEO Analysis** – Extract keywords, topics, and meta insights.  
+- ✍️ **Readability Score** – Evaluate how easy your content is to read.  
+- 💡 **Keyword Suggestions** – AI-powered recommendations for better reach.  
+- 🔗 **Keyword Insertion** – Smartly insert keywords into existing text.  
+- 📊 **SEO Insights Panel** – View structured results for better decision-making.  
+- ⚡ **Full-Stack Integration** – Node.js backend + React frontend.  
 
-Keyword Extraction → Extracts main keywords & topics from input text using TextRazor API.
+---
 
-Keyword Suggestions → AI-based keyword recommendations to improve SEO.
+## 🛠️ Tech Stack
 
-Intelligent Keyword Insertion → Suggests & inserts missing keywords naturally into content.
+**Frontend:** React, TailwindCSS, ShadCN UI  
+**Backend:** Node.js, Express.js  
+**External API:** TextRazor (for keyword and topic extraction)  
+**Database:** (Optional – can be added later)  
+**Deployment:** Render (planned)  
 
-Readability Analysis → Checks content readability score and suggests improvements.
+---
 
-SEO Insights → Provides optimization tips for better search engine ranking.
+## 📂 Project Structure
 
-Single Page Web App → Fast & interactive UI built in React.
-
-🛠️ Tech Stack
-
-Frontend: React, TailwindCSS
-
-Backend: Node.js, Express
-
-APIs: TextRazor API, Custom NLP logic
-
-created by harshita ahuja
